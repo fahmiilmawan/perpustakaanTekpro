@@ -44,12 +44,6 @@ class RakResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('nama_rak')->searchable(),
                 Tables\Columns\TextColumn::make('lokasi_rak')->searchable(),
-                Tables\Columns\TextColumn::make('created_at')
-                    ->dateTime()
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('updated_at')
-                    ->dateTime()
-                    ->searchable(),
             ])
             ->filters([
                 //

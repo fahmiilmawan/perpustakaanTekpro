@@ -81,6 +81,9 @@ class BukuResource extends Resource
                 Tables\Columns\TextColumn::make('stok')
                     ->label('Stok')
                     ->searchable(),
+                Tables\Columns\TextColumn::make('Rak.lokasi_rak')
+                    ->label('Lokasi Rak')
+                    ->searchable()
             ])
             ->filters([
 

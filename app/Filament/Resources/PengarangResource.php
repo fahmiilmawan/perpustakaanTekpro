@@ -29,7 +29,7 @@ class PengarangResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('pengarang')
+                Forms\Components\TextInput::make('nama')
                     ->required()
                     ->maxLength(255),
             ]);
